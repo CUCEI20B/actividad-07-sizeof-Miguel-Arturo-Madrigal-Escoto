@@ -4,20 +4,20 @@
 using namespace std;
 
 int main() {
-    string dataType;
-    getline(cin, dataType);
+    string data;
+    getline(cin, data);
 
-    if(dataType == "char")
+    if(data == "char")
         cout << sizeof(char) << endl;
-    else if(dataType == "int")
+    else if(data == "int")
         cout << sizeof(int) << endl;
-    else if(dataType == "short")
+    else if(data  == "short")
         cout << sizeof(short) << endl;
-    else if(dataType == "float")
+    else if(data  == "float")
         cout << sizeof(float) << endl;
-    else if(dataType == "double")
+    else if(data == "double")
         cout << sizeof(double) << endl;
-    else if(dataType == "long")
+    else if(data == "long")
         cout << sizeof(long) << endl;
 
     return 0;
